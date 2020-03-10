@@ -1,0 +1,293 @@
+Script started on Mon Mar  9 16:13:01 2020
+[?1034hbash-3.2$ mkdir japigit
+bash-3.2$ cd japigit
+bash-3.2$ ls
+bash-3.2$ git init
+Initialized empty Git repository in /Users/bobbyorozco/japigit/.git/
+bash-3.2$ git config --global user.name :Robert[K[K[K[K[K[K[K::[K[K""R"o"b"e"r"t" "O"r"o"z"c"o"[C
+bash-3.2$ git config --global user.name "Robert Orozco"[C[1P[1P[1P[1P[1@e[1@m[1@a[1@i[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"r"m"o"r"o"z"c"2"@"a"s"u"."e"d"u"
+bash-3.2$ git add.ha[K[Kjapai.py[C[1Pi.py
+git: 'add.japi.py' is not a git command. See 'git --help'.
+bash-3.2$ go[K[Kgit -help
+unknown option: -help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+bash-3.2$ git -helpadd.japi.py .japi.py[C[C[C[C[C[C[1P.py[1P.py[1P.py[1P.py[1Ppy[C .py[Cj .pya .pyp .pyi .py
+fatal: pathspec 'japi' did not match any files
+bash-3.2$ git add japi .py[1P.py
+fatal: pathspec 'japi.py' did not match any files
+bash-3.2$ git add japi.py[C[C[C[K[Kout
+bash-3.2$ git add japi.out[1P.out[1P.out[1P.out[1P.outp.outd.out5.out[C[C[C[C[K[K[Kpy
+bash-3.2$ git commit -m "pd5 deliverables"
+[master (root-commit) ab3ce03] pd5 deliverables
+ 2 files changed, 39 insertions(+)
+ create mode 100644 japi.out
+ create mode 100644 pd5.py
+bash-3.2$ git add pd5.py
+bash-3.2$ git add pd5.pycommit -m "pd5 deliverables"
+[master 18ff387] pd5 deliverables
+ 1 file changed, 1 insertion(+)
+bash-3.2$ git status
+On branch master
+nothing to commit, working tree clean
+bash-3.2$ git status -s
+bash-3.2$ echo "hello there">hello.txt
+bash-3.2$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ git status -s
+[31m??[m hello.txt
+bash-3.2$ git add hello.tt[Kxtx[K
+bash-3.2$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   hello.txt[m
+
+bash-3.2$ echo ""W"e" "a"r"e"b"[1P" "t"e"s"t"i"n"g" "g"i"t" "s"t"a"t"u"s"[C">">"h"e"l"l"o"."t"x"t"
+> git status
+> 
+bash-3.2$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   hello.txt[m
+
+bash-3.2$ git diff
+[?1h=[K[?1l>bash-3.2$ git commit -m "update version"
+[master 7324cb0] update version
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.txt
+bash-3.2$ git status
+On branch master
+nothing to commit, working tree clean
+bash-3.2$ git log
+[?1h=[33mcommit 7324cb0946f2bfe875227d47f877be6df121dcad[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Robert Orozco <rmorozc2@asu.edu>[m
+Date:   Mon Mar 9 16:42:21 2020 -0700[m
+[m
+    update version[m
+[m
+[33mcommit 18ff3873644a4557aea61f3f3e5dc7a6f733ffee[m[m
+Author: Robert Orozco <rmorozc2@asu.edu>[m
+Date:   Mon Mar 9 16:28:10 2020 -0700[m
+[m
+    pd5 deliverables[m
+[m
+[33mcommit ab3ce03a726e089bb1fe3011e2013522d688d2ea[m[m
+Author: Robert Orozco <rmorozc2@asu.edu>[m
+Date:   Mon Mar 9 16:24:41 2020 -0700[m
+[m
+    pd5 deliverables[m
+[K[?1l>bash-3.2$ git status -s
+bash-3.2$ git log -oneline
+fatal: unrecognized argument: -oneline
+bash-3.2$ git log -oneline-oneline
+[?1h=[33m7324cb0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m update version[m
+[33m18ff387[m pd5 deliverables[m
+[33mab3ce03[m pd5 deliverables[m
+[K[?1l>bash-3.2$ git branch
+[?1h=* [32mmaster[m[m
+[K[?1l>bash-3.2$ echio[K[Ko "master vers[Ksionb[K">>hello.txt
+bash-3.2$ git coimm[K[K[Kmmit -am "master version"
+[master fd5537b] master version
+ 1 file changed, 1 insertion(+)
+bash-3.2$ git branch d[Kfeature
+bash-3.2$ giot [K[K[Kt branch
+[?1h=  feature[m[m
+* [32mmaster[m[m
+[K[?1l>bash-3.2$ git checkout feature
+Switched to branch 'feature'
+bash-3.2$ git branch
+[?1h=* [32mfeature[m[m
+  master[m[m
+[K[?1l>bash-3.2$ echi "new file">hello feature[1P[1@o
+bash-3.2$ echo "feature version">>hello.txt
+bash-3.2$ git status
+On branch feature
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   hello.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git add hello.txt
+bash-3.2$ status 
+bash: status: command not found
+bash-3.2$ git status
+On branch feature
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   hello.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello[m
+
+bash-3.2$ git status[3Pstatus git add hello.txt[7Pstatusecho "feature version">>hello.txt[C[C[C[C[C[C[C[C[C[Cgit status[Kadd hello.txt[7Pstatusecho "feature version">>hello.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pnew file">hello feature[1Pfeature_feature
+bash-3.2$ echo "new file">hello_feature[C[C[C[C[C[C[C[C[C[C[19Pgit status[3Pstatus git add hello.txt[7Pstatusadd hello.txt_.txtf.txte.txta.txtt.txtu.txtr.txte.txt
+fatal: pathspec 'hello_feature.txt' did not match any files
+bash-3.2$ s[Kgit status
+On branch feature
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   hello.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello[m
+	[31mhello_feature[m
+
+bash-3.2$ git statusadd hello_feature.txt[C[C[C[C[C[C[C[C[C[Cecho "new file">hello_feature[C[C[C[C[C[C[C[C[C[C[4Pgit add hello_feature.txt[C[K[K[K[K
+bash-3.2$ git add hello_feature
+bash-3.2$ git commit -m"feature version"[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[feature ad42dbb] feature version
+ 2 files changed, 2 insertions(+)
+ create mode 100644 hello_feature
+bash-3.2$ giot[K[Kt checkout master
+Switched to branch 'master'
+bash-3.2$ git branch
+[?1h=  feature[m[m
+* [32mmaster[m[m
+[K[?1l>bash-3.2$ echo ""i"n"i"t"i"a"l" "c"o"n"t"e"n"t"[C><[K merge.txt
+bash-3.2$ git add merge.txt
+bash-3.2$ git add merge.txt[C[C[C[C[C[C[C[C[C[C[16@echo "initial content">[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit branch[Kcheckout masterommit -m "feature version"[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"a"d"d"i"n"g" "n"e"w" "f"i"l"e" "t"o" "m"a"s"t"e"r"[C
+[master ea1b97b] adding new file to master
+ 1 file changed, 1 insertion(+)
+ create mode 100644 merge.txt
+bash-3.2$ git branch newbranch
+bash-3.2$ echo ""U"p"d"a"t"e" "i"[1P"o"n" "m"a"s"t"e"r"[C>merge.txt
+bash-3.2$ git add merge.txt
+bash-3.2$ git commit -m ::[K[K""add merge.txt[1Pcommit -m ""u"o"d"a"t"e"[1P"[1P"[1P"[1P"[1P"p"d"a"t"e" "o"n" "m"a"s"t"e"r"[C
+[master a6d748e] update on master
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bash-3.2$ git checkout newbranch
+Switched to branch 'newbranch'
+bash-3.2$ echi[Ko "up[K[KUpdate on new branch">merge.txt
+bash-3.2$ git commit -am ""u"p"d"a"t"e" "o"n" "n"e"w" "b"r"a"n"c"h"
+[newbranch 8592ebe] update on new branch
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bash-3.2$ git check ou[K[K[Kout master
+Switched to branch 'master'
+bash-3.2$ git merge newbranch
+Auto-merging merge.txt
+CONFLICT (content): Merge conflict in merge.txt
+Automatic merge failed; fix conflicts and then commit the result.
+bash-3.2$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	[31mboth modified:   merge.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ cat merge,[K.txt
+<<<<<<< HEAD
+Update on master
+=======
+Update on new branch
+>>>>>>> newbranch
+bash-3.2$ echo "merged vc[Kv[Kersion" > merge.txt
+bash-3.2$ git add merge.txt
+bash-3.2$ git commit -m "Fixed Conflicts"
+[master d176eb3] Fixed Conflicts
+bash-3.2$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ git branch -d newbranch
+Deleted branch newbranch (was 8592ebe).
+bash-3.2$ echo "file to delete" > to_delete.txt
+bash-3.2$ git add to_delete.txt
+bash-3.2$ git commit -m ""y"e"t" "a"n"o"t"h"e"r" "l"a"b" "f"i"l"e"
+[master 79ad911] yet another lab file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 to_delete.txt
+bash-3.2$ git tm to_delete.txt
+git: 'tm' is not a git command. See 'git --help'.
+
+The most similar commands are
+	am
+	rm
+bash-3.2$ git tm to_delete.txt[1P[1@r
+rm 'to_delete.txt'
+bash-3.2$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    to_delete.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello[m
+
+bash-3.2$ ls
+hello		hello.txt	japi.out	merge.txt	pd5.py
+bash-3.2$ git rm to delete.txt
+fatal: pathspec 'to' did not match any files
+bash-3.2$ git reset --hard Hea[K[KEAD
+HEAD is now at 79ad911 yet another lab file
+bash-3.2$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mhello[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash-3.2$ ls
+hello		japi.out	pd5.py
+hello.txt	merge.txt	to_delete.txt
+bash-3.2$ lsgit statusreset --hard HEAD[1Pm to delete.txt
+fatal: pathspec 'to' did not match any files
+bash-3.2$ git rm to delete.txt[C[C[C[C[C[C[C[C[C[Cls[Kgit statusreset --hard HEAD[1Pm to delete.txt[C[C[C[C[C[C[C[C[C[Cls[Kgit rm to delete.txttdelete.txtodelete.txt_delete.txt
+fatal: pathspec 'to' did not match any files
+bash-3.2$ git rm to to_delete.txt[3Pdelete.txt[1Pdelete.txt_delete.txt
+rm 'to_delete.txt'
+bash-3.2$ git status -sb #Check the status;the file should be statge[K[K[Kged for deletio n
+## [32mmaster[m
+[32mD[m  to_delete.txt
+[31m??[m hello
+bash-3.2$ git copmm[K[K[K[Kommit -m ""<"f"i"l"e" "d"e"l"e"t"i"o"n">"[C
+[master 7426637] <file deletion>
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 to_delete.txt
+bash-3.2$ exit
+exit
+
+Script done on Mon Mar  9 16:59:54 2020
